@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    z-index: 8;
+}
+
+header img {
+    width: 130px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 160px;
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+    margin-right: 150px;
+}
+
+header a {
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 13px;
+    color: gray;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-weight: lighter;
+    transition: all ease-in-out .2s;
+}
+
+header a:hover {
+    transform: scale(1.04);
+}
+
+header button {
+    width: 150px;
+    height: 35px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 15px;
+    border-width: 0;
+    justify-content: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 200px;
+    margin-left: auto;
+    color: white;
+    transition: all ease-in-out .2s;
+}
+
+header button:hover {
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+header button:active {
+    transform: scale(1.03);
+    transition: none;
+}
+
+.seccion {
+    width: 100%;
+    height: 86vh;
+}
+
+#seccion1 h1 {
+    padding-top: 220px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color:  hsl(233, 26%, 24%);
+    padding-left: 130px;
+}
+
+#seccion1 h4 {
+    color: gray;
+    font-family: Verdana;
+    font-weight: lighter;
+    padding-left: 130px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+#seccion1 button {
+    width: 150px;
+    height: 35px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 15px;
+    border-width: 0;
+    color: white;
+    transition: all ease-in-out .2s;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+#seccion1 button:hover {
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+#seccion1 button:active {
+    transform: scale(1.03);
+    transition: none;
+}
+
+.fondo {
+    width: 750px;
+    position: absolute;
+    margin-bottom: 200px;
+    margin-left: 500px;
+    overflow: hidden;
+    right: -170px;
+    top: -50px;
+    position: absolute;
+    z-index: 2;
+}
+
+i {
+    padding-right: 10px;
+    color: hsl(233, 26%, 24%)
+}
+
+#background {
+    width: 1000px;
+    top: -120px;
+}
+
+#telefonos {
+    width: 720px;
+    right: -125px;
+    margin-right: 50px;
+    top: -130px;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+#seccion2 {
+    background-color: hsl(0, 0%, 96%);
+    display: row;
+    z-index: 4;
+    height: 86vh;
+}
+
+#seccion2 h1 {
+    color: hsl(233, 26%, 24%);
+    font-family: Verdana;
+    font-weight: lighter;
+    padding-top: 80px;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+#subtitulo {
+    color: gray;
+    font-family: verdana;
+    font-weight: Lighter;
+    font-size: 15px;
+    padding-left: 130px;
+    padding-top: 25px;
+    margin-bottom: 70px;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.online {
+
+}
+
+.online img {
+    
+}
+
+.online h2 {
+    color: hsl(233, 26%, 24%);
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.online h4 {
+    color: gray;
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.simple h2 {
+    color: hsl(233, 26%, 24%);
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.simple h4 {
+    color: gray;
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.fast h2 {
+    color: hsl(233, 26%, 24%);
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.fast h4 {
+    color: gray;
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.open h2 {
+    color: hsl(233, 26%, 24%);
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.open h4 {
+    color: gray;
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#seccion3 {
+    width: 100%;
+    height: 70vh;
+    font-family: Verdana;
+    font-weight: lighter;
+}
+
+#seccion3 h1 {
+    color: hsl(233, 26%, 24%);
+    font-family: Verdana;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+#seccion3 img {
+    width: 230px;
+    border-radius: 5px;
+    height: 170px;
+}
+
+#seccion3 img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+#seccion3 h6 {
+    color: gray;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-left: 13px;
+    font-size: 9px;
+}
+
+#seccion3 h3 {
+    font-weight: lighter;
+    padding-top: 10px;
+    font-size: 18px;
+    padding-left: 13px;
+}
+
+#seccion3 h4 {
+    font-weight: lighter;
+    color: gray;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+.plata, .restaurant, .fiesta, .avion {
+    margin-top: 50px;
+    margin-right: -4px;
+}
+
+
+#latest::first-line {
+    background-image: linear-gradient(to right, rgba(182, 178, 178, 0.697), transparent);
+
+}
+
+
+
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    width: 100%;
+    height: 180px;
+    display: flex;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: lighter;
+}
+
+footer {
+    color: gray;
+    font-family: verdana;
+}
+
+footer button {
+    width: 150px;
+    height: 35px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 15px;
+    border-width: 0;
+    color: white;
+    transition: all ease-in-out .2s;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.final button:hover {
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.izquierda {
+    display: flex;
+    margin-left: 150px;
+}
+
+.izquierda img {
+    width: 20px;
+    height: 20px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+.medio a {
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.derecha a {
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.final h4 {
+    font-weight: lighter;
+    margin-left: 90px;
+    font-size: 13px;
+    margin-top: 10px;
+}
